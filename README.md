@@ -16,14 +16,14 @@ _**[Yihao Meng<sup>1,2</sup>](https://yihao-meng.github.io/), [Hao Ouyang<sup>2<
 
 ### ✅ Released
 *   Full inference code
-*   `HoloCine-14B-full`
+*   `HoloCine-14B-full` 
 *   `HoloCine-14B-sparse`
 
 ### ⏰ To Be Released
 *   `HoloCine-14B-full-l` (For videos longer than 1 minute)
 *   `HoloCine-14B-sparse-l` (For videos longer than 1 minute)
-*   `HoloCine-5B-full`
-*   `HoloCine-5B-sparse`
+*   `HoloCine-5B-full` (For research purpose)
+*   `HoloCine-5B-sparse` (For research purpose)
 
 ### 🗺️ In Planning
 *   `HoloCine-audio`
@@ -132,13 +132,13 @@ We release two version of models, one using full attention to model the multi-sh
 To use the full attention version.
 
 ```shell
-python inference/Wan2.2-T2V-A14B-multi-shot-full-attention.py
+python inference/HoloCine_inference_full_attention.py
 ```
 
 To use the sparse inter-shot attention version.
 
 ```shell
-python inference/Wan2.2-T2V-A14B-multi-shot-sparse-attention.py
+python inference/HoloCine_inference_sparse_attention.py
 ```
 
 
@@ -157,7 +157,7 @@ This is the easiest way to create new multi-shot prompts. You provide the compon
   * `num_frames`: The total number of frames for the video (default is `241` as we train on this sequence length).
   * `shot_cut_frames`: (Optional) A list of frame numbers where you want cuts to happen. By defult, the script will automatically calculate evenly spaced cuts. If you want to customize it, make sure you understand that the shot cut number indicated by `shot_cut_frames` should align with `shot_captions`.
 
-**Example (inside `run_inference.py`):**
+**Example (inside `HoloCine_inference_full_attention.py`):**
 
 ```python
 run_inference(
@@ -206,5 +206,5 @@ run_inference(
 
 ## Examples
 
-We provide several commented-out examples directly within the `Wan2.2-T2V-A14B-multi-shot-full-attention.py` script. You can uncomment any of these examples to try them out immediately.
+We provide several commented-out examples directly within the `HoloCine_inference_full_attention.py` and `HoloCine_inference_full_attention.py` script. You can uncomment any of these examples to try them out immediately.
 
