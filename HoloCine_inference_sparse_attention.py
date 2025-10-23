@@ -221,7 +221,7 @@ run_inference(
     shot_captions=[
         "Medium shot of [character1] standing by a pillar, observing the crowd, a champagne flute in her hand.",
         "Close-up of [character2] watching her from across the room, a look of intrigue on his visible features.",
-        "Medium shot as [character2] navigates the crowd and approaches [character1], offering a polite bow. ",
+        "Medium shot as [character2] navigates the crowd and approaches [character1], offering a polite bow.",
         "Close-up on [character1]'s eyes through her mask, as they crinkle in a subtle, amused smile.",
         "A stylish medium two-shot of them standing together, the swirling party out of focus behind them, as they begin to converse."
 
