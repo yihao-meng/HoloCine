@@ -191,7 +191,7 @@ pipe = WanVideoHoloCinePipeline.from_pretrained(
     model_configs=[
         ModelConfig(path="./checkpoints/Wan2.2-T2V-A14B//Wan2.2-T2V-A14B/models_t5_umt5-xxl-enc-bf16.pth", offload_device="cpu"),
         ModelConfig(path="./checkpoints/HoloCine_dit/full/full_high_noise.safetensors", offload_device="cpu"),
-        ModelConfig(path="./checkpoints/HoloCine_dit/full/full_high_noise.safetensors",  offload_device="cpu"),
+        ModelConfig(path="./checkpoints/HoloCine_dit/full/full_low_noise.safetensors",  offload_device="cpu"),
         ModelConfig(path="./checkpoints/Wan2.2-T2V-A14B/Wan2.2-T2V-A14B/Wan2.1_VAE.pth", offload_device="cpu"),
     ],
 )
