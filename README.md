@@ -46,7 +46,7 @@ pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.
 
 Our model changes the cross attention and self attention mechanism to adapt to multi-shot generation, and full-finetuned the dit blocks of our base model: Wan 2.2 14B T2V model. To run inference, you must download checkpoints from two different sources: the original Wan 2.2 base models and our fine-tuned `HoloCine_dit` models.
 
-### Step 1: Download Wan 2.2 Base Models
+### Step 1: Download Wan 2.2 VAE and T5
 If you already have downloaded Wan 2.2 14B T2V before, skip this section.
 
 If not, you need the T5 text encoder and the VAE from the original Wan 2.2 repository:
