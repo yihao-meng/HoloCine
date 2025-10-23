@@ -2,6 +2,7 @@
 
 
 ### [<a href="todo" target="_blank">arXiv</a>] [<a href="https://holo-cine.github.io/" target="_blank">Project Page</a>] 
+![teaser](teaser.png)
 _**[Yihao Meng<sup>1,2</sup>](https://yihao-meng.github.io/), [Hao Ouyang<sup>2</sup>](https://ken-ouyang.github.io/), [Yue Yu<sup>1,2</sup>](https://bruceyy.com/), [Qiuyu Wang<sup>2</sup>](https://github.com/qiuyu96), [Wen Wang<sup>2,3</sup>](https://github.com/encounter1997), [Ka Leong Cheng<sup>2</sup>](https://felixcheng97.github.io/), <br>[Hanlin Wang<sup>1,2</sup>](https://scholar.google.com/citations?user=0uO4fzkAAAAJ&hl=zh-CN), [Yixuan Li<sup>2,4</sup>](https://yixuanli98.github.io/), [Cheng Chen<sup>2,5</sup>](https://scholar.google.com/citations?user=nNQU71kAAAAJ&hl=zh-CN), [Yanhong Zeng<sup>2</sup>](https://zengyh1900.github.io/), [Yujun Shen<sup>2</sup>](https://shenyujun.github.io/), [Huamin Qu<sup>1</sup>](http://huamin.org/)**_
 <br>
 <sup>1</sup>HKUST, <sup>2</sup>Ant Group, <sup>3</sup>ZJU, <sup>4</sup>CUHK, <sup>5</sup>NTU
@@ -182,6 +183,8 @@ run_inference(
 )
 ```
 
+https://github.com/user-attachments/assets/10dba757-27dc-4f65-8fc3-b396cf466063
+
 ### Choice 2: Raw String Input
 
 This mode allows you to provide the full, concatenated prompt string, just like in our original script. This is useful if you want to re-using our provided prompts.
@@ -206,6 +209,7 @@ run_inference(
 
 )
 ```
+https://github.com/user-attachments/assets/fdc12ff1-cf1b-4250-b7c9-a32e4d65731f
 
 ## Examples
 
