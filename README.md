@@ -211,3 +211,5 @@ run_inference(
 
 We provide several commented-out examples directly within the `HoloCine_inference_full_attention.py` and `HoloCine_inference_full_attention.py` script. You can uncomment any of these examples to try them out immediately.
 
+If you want to quickly test the model's stability on your own text prompt and don't want to design it by yourself, you can use LLM like gemini 2.5 pro to generate text prompt based on our format. Based on our test, the model is quite stable on diverse genres of text prompt.
+

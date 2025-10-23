@@ -233,6 +233,7 @@ run_inference(
 # --- Example 2: Call using Raw String Input (Choice 2) ---
 # (Uses your original prompt format)
 print("\n--- Running Example 2 (Raw String Input) ---")
+
 run_inference(
     pipe=pipe,
     negative_prompt=scene_negative_prompt,
@@ -245,20 +246,19 @@ run_inference(
 )
 
 
+
 # # we provide more samples for test, you can uncomment them and have a try.
+
 # run_inference(
 #     pipe=pipe,
 #     negative_prompt=scene_negative_prompt,
 #     output_path="video3.mp4",
     
 #     # Choice 2 inputs
-#     prompt="[global caption] The scene is set in a gritty, underground boxing gym. [character1] is a weary, aging boxing coach with a towel around his neck and a kind but tough face. [character2] is a young, ambitious female boxer with a focused, intense expression, her hands wrapped. The environment smells of sweat and leather, with punching bags, a boxing ring, and faded posters on the brick walls. This scene contains 6 shots. [per shot caption] Medium shot of [character2] relentlessly hitting a heavy bag. [shot cut] Close-up of [character1] watching her, his expression critical yet proud. [shot cut] Close-up of [character2]'s determined face, dripping with sweat, her eyes fixed on the bag. [shot cut] Medium shot as [character1] approaches and stops the bag, giving her a piece of advice. [shot cut] Close-up of [character2] listening intently, nodding in understanding. [shot cut] Medium shot as she turns back to the bag and starts punching again, her form now visibly improved.",
+#     prompt="[global caption] The scene is a magical encounter in a misty, ancient Celtic ruin at dawn. [character1] is a modern-day historian, a skeptical woman with practical hiking gear and a camera. [character2] is the spectral figure of an ancient Celtic queen, translucent and ethereal, with long, flowing red hair and a silver circlet. The environment is comprised of mossy standing stones and rolling green hills shrouded in morning mist. This scene contains 5 shots. [per shot caption] Medium shot of [character1] carefully touching a moss-covered standing stone, a look of academic interest on her face. [shot cut] Close-up of her face, her expression changing to one of utter shock as she sees something off-camera. [shot cut] A soft-focus shot of [character2] slowly materializing from the mist between two stones. [shot cut] Medium shot of [character1] stumbling backward, lowering her camera, her skepticism completely shattered. [shot cut] Close-up of [character2]'s spectral face, her expression sad and timeless as she looks at the historian.",
 #     num_frames=241,  
-#     shot_cut_frames=[37, 77, 117, 157, 197]
+#     shot_cut_frames=[49, 93, 137, 189]
 # )
-
-
-
 
 # run_inference(
 #     pipe=pipe,
