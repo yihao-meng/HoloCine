@@ -55,7 +55,7 @@ If you encounter environment problem when installing FlashAttention-3, you can r
 
 If you cannot install FlashAttention-3, you can use FlashAttention-2 as an alternative, and our code will automatically detect the FlashAttention version. It will be slower than FlashAttention-3,but can also produce the right result.
 
-Install FlashAttention-2:
+If you want to install FlashAttention-2, you can use the following command:
 ```shell
 pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3/flash_attn-2.8.3+cu12torch2.4cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
 ```
@@ -101,7 +101,7 @@ Download our fine-tuned high-noise and low-noise DiT checkpoints from the follow
 
 **[➡️ Download HoloCine\_dit Model Checkpoints Here (xxxx)]**
 
-This download contain the four fine-tuned model files. Two for full_attention version: `holocine_full_attention_high_noise.safetensors`, `holocine_full_attention_low_noise.safetensors`. And two for sparse inter-shot attention version: `holocine_sparse_attention_high_noise.safetensors`, `holocine_sparse_attention_high_noise.safetensors`. 
+This download contain the four fine-tuned model files. Two for full_attention version: `full_high_noise.safetensors`, `full_low_noise.safetensors`. And two for sparse inter-shot attention version: `sparse_high_noise.safetensors`, `sparse_high_noise.safetensors`. 
 
 You can choose a version to download, or try both version if you want. 
 
@@ -135,13 +135,13 @@ We release two version of models, one using full attention to model the multi-sh
 To use the full attention version.
 
 ```shell
-python inference/HoloCine_inference_full_attention.py
+python HoloCine_inference_full_attention.py
 ```
 
 To use the sparse inter-shot attention version.
 
 ```shell
-python inference/HoloCine_inference_sparse_attention.py
+python HoloCine_inference_sparse_attention.py
 ```
 
 
@@ -189,7 +189,7 @@ This mode allows you to provide the full, concatenated prompt string, just like 
 The format must be exact:
 `[global caption] ... [per shot caption] ... [shot cut] ... [shot cut] ...`
 
-**Example (inside `run_inference.py`):**
+**Example (inside `HoloCine_inference_full_attention.py`):**
 
 ```python
 run_inference(
@@ -209,7 +209,7 @@ run_inference(
 
 ## Examples
 
-We provide several commented-out examples directly within the `HoloCine_inference_full_attention.py` and `HoloCine_inference_full_attention.py` script. You can uncomment any of these examples to try them out immediately.
+We provide several commented-out examples directly within the `HoloCine_inference_full_attention.py` and `HoloCine_inference_sparse_attention.py` script. You can uncomment any of these examples to try them out immediately.
 
 If you want to quickly test the model's stability on your own text prompt and don't want to design it by yourself, you can use LLM like gemini 2.5 pro to generate text prompt based on our format. Based on our test, the model is quite stable on diverse genres of text prompt.
 
