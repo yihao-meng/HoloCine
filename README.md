@@ -100,7 +100,7 @@ Place both files inside a new folder named `checkpoints/Wan2.2-T2V-A14B/`.
 
 Download our fine-tuned high-noise and low-noise DiT checkpoints from the following link:
 
-**[➡️ Download HoloCine\_dit Model Checkpoints Here (https://huggingface.co/hlwang06/HoloCine)]**
+**[➡️ Download HoloCine\_dit Model Checkpoints [Here](https://huggingface.co/hlwang06/HoloCine)]**
 
 This download contain the four fine-tuned model files. Two for full_attention version: `full_high_noise.safetensors`, `full_low_noise.safetensors`. And two for sparse inter-shot attention version: `sparse_high_noise.safetensors`, `sparse_high_noise.safetensors`. 
 
