@@ -11,6 +11,23 @@ _**[Yihao Meng<sup>1,2</sup>](https://yihao-meng.github.io/), [Hao Ouyang<sup>2<
 *   **Key Feature:** It maintains consistency of characters, objects, and style across all shots in a scene.
 *   **How it works:** You provide shot-by-shot text prompts, giving you directorial control over the final video.
 
+
+## 🚀 Open-Source Plan
+
+### ✅ Released
+*   Full inference code
+*   `HoloCine-14B-full`
+*   `HoloCine-14B-sparse`
+
+### ⏰ To Be Released
+*   `HoloCine-14B-full-l` (For videos longer than 1 minute)
+*   `HoloCine-14B-sparse-l` (For videos longer than 1 minute)
+*   `HoloCine-5B-full`
+*   `HoloCine-5B-sparse`
+
+### 🗺️ In Planning
+*   `HoloCine-audio`
+
 # Setup
 ```shell
 git clone https://github.com/yihao-meng/HoloCine.git
@@ -43,7 +60,6 @@ pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.
 # Checkpoint
 
 
-
 ### Step 1: Download Wan 2.2 VAE and T5
 If you already have downloaded Wan 2.2 14B T2V before, skip this section.
 
@@ -53,7 +69,7 @@ If not, you need the T5 text encoder and the VAE from the original Wan 2.2 repos
 
 Based on the repository's file structure, you **only** need to download `models_t5_umt5-xxl-enc-bf16.pth` and `Wan2.1_VAE.pth`.
 
-You do **not** need to download the `google`, `high_noise_model`, or `low_noise_model` folders, nor any other files. Our model fully replaces the original DiT (noise model) components.
+You do **not** need to download the `google`, `high_noise_model`, or `low_noise_model` folders, nor any other files. 
 
 #### Recommended Download (CLI)
 
