@@ -6,10 +6,11 @@ _**[Yihao Meng<sup>1,2</sup>](https://yihao-meng.github.io/), [Hao Ouyang<sup>2<
 <br>
 <sup>1</sup>HKUST, <sup>2</sup>Ant Group, <sup>3</sup>ZJU, <sup>4</sup>CUHK, <sup>5</sup>NTU
 
-# Introduction
-Current text-to-video models generate single, isolated clips. This project generates entire multi-shot scenes.
+# TLDR
+*   **What it is:** A text-to-video model that generates full scenes, not just isolated clips.
+*   **Key Feature:** It maintains consistency of characters, objects, and style across all shots in a scene.
+*   **How it works:** You provide shot-by-shot text prompts, giving you directorial control over the final video.
 
-Our model ensures characters, objects, and styles remain consistent from the first shot to the last. You provide shot-by-shot text prompts for precise directorial control, moving beyond simple clip synthesis toward automated filmmaking.
 # Setup
 ```shell
 git clone https://github.com/yihao-meng/HoloCine.git
@@ -43,9 +44,6 @@ pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.
 
 
 
-
-Our model changes the cross attention and self attention mechanism to adapt to multi-shot generation, and full-finetuned the dit blocks of our base model: Wan 2.2 14B T2V model. To run inference, you must download checkpoints from two different sources: the original Wan 2.2 base models and our fine-tuned `HoloCine_dit` models.
-
 ### Step 1: Download Wan 2.2 VAE and T5
 If you already have downloaded Wan 2.2 14B T2V before, skip this section.
 
@@ -78,7 +76,7 @@ Alternatively, go to the "Files" tab on the Hugging Face repo and manually downl
 
 Place both files inside a new folder named `checkpoints/Wan2.2-T2V-A14B/`.
 
-### Step 2: Download Our Fine-tuned Model (HoloCine\_dit)
+### Step 2: Download HoloCine Model (HoloCine\_dit)
 
 Download our fine-tuned high-noise and low-noise DiT checkpoints from the following link:
 
