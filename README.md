@@ -26,8 +26,8 @@ If you enjoyed the videos we created, please consider giving us a star 🌟.
 ### ⏰ To Be Released
 *   `HoloCine-14B-full-l` (For videos longer than 1 minute)
 *   `HoloCine-14B-sparse-l` (For videos longer than 1 minute)
-*   `HoloCine-5B-full` (For research purpose)
-*   `HoloCine-5B-sparse` (For research purpose)
+*   `HoloCine-5B-full` (For limited-memory users)
+*   `HoloCine-5B-sparse` (For limited-memory users)
 
 ### 🗺️ In Planning
 *   `HoloCine-audio`
