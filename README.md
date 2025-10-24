@@ -104,7 +104,7 @@ Download our fine-tuned high-noise and low-noise DiT checkpoints from the follow
 
 **[➡️ Download HoloCine\_dit Model Checkpoints [Here](https://huggingface.co/hlwang06/HoloCine)]**
 
-This download contain the four fine-tuned model files. Two for full_attention version: `full_high_noise.safetensors`, `full_low_noise.safetensors`. And two for sparse inter-shot attention version: `sparse_high_noise.safetensors`, `sparse_high_noise.safetensors`. 
+This download contain the four fine-tuned model files. Two for full_attention version: `full_high_noise.safetensors`, `full_low_noise.safetensors`. And two for sparse inter-shot attention version: `sparse_high_noise.safetensors`, `sparse_high_noise.safetensors`. The sparse version is still uploading. 
 
 You can choose a version to download, or try both version if you want. 
 
