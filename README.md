@@ -5,7 +5,11 @@
 **[**[**🌐 Project Page**](https://holo-cine.github.io/)**]**
 **[**[**🤗 Model Weights**](https://huggingface.co/hlwang06/HoloCine/tree/main)**]**
 
-https://github.com/user-attachments/assets/88bd0624-9c2c-4fa7-abb6-8e1cec0d0714
+
+
+https://github.com/user-attachments/assets/c4dee993-7c6c-4604-a93d-a8eb09cfd69b
+
+
 
 _**[Yihao Meng<sup>1,2</sup>](https://yihao-meng.github.io/), [Hao Ouyang<sup>2</sup>](https://ken-ouyang.github.io/), [Yue Yu<sup>1,2</sup>](https://bruceyy.com/), [Qiuyu Wang<sup>2</sup>](https://github.com/qiuyu96), [Wen Wang<sup>2,3</sup>](https://github.com/encounter1997), [Ka Leong Cheng<sup>2</sup>](https://felixcheng97.github.io/), <br>[Hanlin Wang<sup>1,2</sup>](https://scholar.google.com/citations?user=0uO4fzkAAAAJ&hl=zh-CN), [Yixuan Li<sup>2,4</sup>](https://yixuanli98.github.io/), [Cheng Chen<sup>2,5</sup>](https://scholar.google.com/citations?user=nNQU71kAAAAJ&hl=zh-CN), [Yanhong Zeng<sup>2</sup>](https://zengyh1900.github.io/), [Yujun Shen<sup>2</sup>](https://shenyujun.github.io/), [Huamin Qu<sup>1</sup>](http://huamin.org/)**_
 <br>
