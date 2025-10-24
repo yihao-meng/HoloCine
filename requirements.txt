@@ -14,3 +14,4 @@ ftfy
 pynvml
 pandas
 accelerate
+ 

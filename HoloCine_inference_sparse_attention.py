@@ -5,7 +5,7 @@ from diffsynth.pipelines.wan_video_holocine import WanVideoHoloCinePipeline, Mod
 
 # ---------------------------------------------------
 #                Helper Functions
-# ---------------------------------------------------
+# --------------------------------------------------- 
 
 def enforce_4t_plus_1(n: int) -> int:
     """Forces an integer 'n' to the closest 4t+1 form."""
