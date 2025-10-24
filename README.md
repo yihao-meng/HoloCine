@@ -219,7 +219,7 @@ If you want to quickly test the model's stability on your own text prompt and do
 
 
 
-## Citation
+# Citation
 
 If you find this work useful, please consider citing our paper:
 
