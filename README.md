@@ -234,7 +234,7 @@ If you find this work useful, please consider citing our paper:
 }
 ```
 
-## License
+# License
 
 This project is licensed under the CC BY-NC-SA 4.0([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
 
