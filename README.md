@@ -217,3 +217,18 @@ We provide several commented-out examples directly within the `HoloCine_inferenc
 
 If you want to quickly test the model's stability on your own text prompt and don't want to design it by yourself, you can use LLM like gemini 2.5 pro to generate text prompt based on our format. Based on our test, the model is quite stable on diverse genres of text prompt.
 
+
+
+## Citation
+
+If you find this work useful, please consider citing our paper:
+
+```bibtex
+@article{meng2025holocine,
+  title={HoloCine: Holistic Generation of Cinematic Multi-Shot Long Video Narratives},
+  author={Meng, Yihao and Ouyang, Hao and Yu, Yue and Wang, Qiuyu and Wang, Wen and Cheng, Ka Leong and Wang, Hanlin and Li, Yixuan and Chen, Cheng and Zeng, Yanhong and Shen, Yujun and Qu, Huamin},
+  journal={arXiv preprint arXiv:2510.20822},
+  year={2025}
+}
+```
+
