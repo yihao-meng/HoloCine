@@ -38,6 +38,7 @@ If you enjoyed the videos we created, please consider giving us a star 🌟.
 *   `HoloCine-5B-sparse` (For limited-memory users)
 
 ### 🗺️ In Planning
+*   Support first frame and key-frame input
 *   `HoloCine-audio`
 
 # Setup
