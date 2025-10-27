@@ -159,7 +159,7 @@ If you don't have enough VRAM, you can reduce the frame amount from 241 to 81 (1
 
 ## Prompt Format
 
-To achieve precise content control of each shot, our prompt is designed to follow a format. Our inference script is designed to be flexible and we support two way to input the text prompt. Note that currently the text encoder will truncate truncate any prompt that exceeds its 512-token limit, so make sure the prompt is precise and less than 512 token.
+To achieve precise content control of each shot, our prompt is designed to follow a format. Our inference script is designed to be flexible and we support two way to input the text prompt. Note that currently the text encoder will truncate truncate any prompt that exceeds its 512-token limit, so make sure the prompt is concise and less than 512 token.
 
 ### Choice 1: Structured Input (Recommended if you want to test on your own sample)
 
