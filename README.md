@@ -251,5 +251,5 @@ This project is licensed under the CC BY-NC-SA 4.0 ([Creative Commons Attributio
 
 The code is provided for academic research purposes only.
 
-For any questions, please contact ymengas@cse.ust.hk.
+For any questions, please contact ymengas@connect.ust.hk.
 
