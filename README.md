@@ -229,7 +229,7 @@ If you want to quickly test the model's stability on your own text prompt and do
 # Community Support
 
 ## Comfyui
-Thanks [Dango233](https://github.com/Dango233) for implementing comfyui node for HoloCine. (kijai/ComfyUI-WanVideoWrapper#1566). This part is still under test, so feel to leave an issue if you encounter any problem here.
+Thanks [Dango233](https://github.com/Dango233) for implementing comfyui node for HoloCine. (kijai/ComfyUI-WanVideoWrapper#1566) and https://github.com/Dango233/ComfyUI-WanVideoWrapper-Multishot/. This part is still under test, so feel to leave an issue if you encounter any problem here.
 
 
 # Citation
