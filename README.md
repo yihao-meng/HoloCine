@@ -1,3 +1,4 @@
+![IMG_8435](https://github.com/user-attachments/assets/b37d60dd-73a8-437c-8878-b9db7ec2632d)
 # HoloCine: Holistic Generation of Cinematic Multi-Shot Long Video Narratives
 
 
